@@ -1,6 +1,7 @@
-L.Draw.Marker = L.Draw.Feature.extend({
+﻿L.Draw.Streetview = L.Draw.Feature.extend({
     statics: {
-        TYPE: 'marker',
+
+        TYPE: 'streetview'
     },
 
     options: {
@@ -10,7 +11,13 @@ L.Draw.Marker = L.Draw.Feature.extend({
     },
 
     initialize: function (map, options) {
-        this.type = L.Draw.Marker.TYPE;
+        // Save the type so super can fire, need to do this as cannot do this.TYPE :(
+        //if (options.hasOwnProperty('purpose') && options.purpose === 'streetview') {
+        this.type = L.Draw.Streetview.TYPE;
+        //}
+        //else {
+        //    this.type = L.Draw.Marker.TYPE;
+        //}
 
 
         L.Draw.Feature.prototype.initialize.call(this, map, options);

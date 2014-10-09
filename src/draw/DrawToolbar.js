@@ -9,7 +9,8 @@ L.DrawToolbar = L.Toolbar.extend({
 		polygon: {},
 		rectangle: {},
 		circle: {},
-		marker: {}
+		marker: {},
+		streetview: {}
 	},
 
 	initialize: function (options) {
@@ -52,7 +53,12 @@ L.DrawToolbar = L.Toolbar.extend({
 				enabled: this.options.marker,
 				handler: new L.Draw.Marker(map, this.options.marker),
 				title: L.drawLocal.draw.toolbar.buttons.marker
-			}
+			},
+            {
+                enabled: this.options.streetview,
+                handler: new L.Draw.Streetview(map, this.options.streetview),
+                title: L.drawLocal.draw.toolbar.buttons.streetview
+            }
 		];
 	},
 
