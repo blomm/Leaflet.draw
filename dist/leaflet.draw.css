@@ -22,15 +22,18 @@
 	border-bottom-right-radius: 0;
 }
 
-.leaflet-draw-toolbar a {
-	background-image: url('/Images/spritesheet.png');
+/*.leaflet-draw-toolbar a {
+	background-image: url('images/spritesheet.png');
 	background-repeat: no-repeat;
 }
 
 .leaflet-retina .leaflet-draw-toolbar a {
-	background-image: url('/Images/spritesheet-2x.png');
-	background-size: 270px 30px;
-}
+	background-image: url('images/spritesheet-2x.png');
+	background-size: 250px 30px;
+}*/
+
+
+
 
 .leaflet-draw a {
 	display: block;
@@ -144,43 +147,35 @@
 }
 
 .leaflet-draw-toolbar .leaflet-draw-draw-polygon {
-	background-position: -29px -2px;
+	background-position: -35px -2px;
 }
 
 .leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-polygon {
-	background-position: -29px -1px;
+	background-position: -33px -1px;
 }
 
 .leaflet-draw-toolbar .leaflet-draw-draw-rectangle {
-	background-position: -58px -2px;
+	background-position: -68px -2px;
 }
 
 .leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-rectangle {
-	background-position: -60px -1px;
+	background-position: -66px -1px;
 }
 
 .leaflet-draw-toolbar .leaflet-draw-draw-circle {
-	background-position: -86px -2px;
+	background-position: -100px -2px;
 }
 
 .leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-circle {
-	background-position: -90px -1px;
+	background-position: -98px -1px;
 }
 
 .leaflet-draw-toolbar .leaflet-draw-draw-marker {
-	background-position: -114px -2px;
+	background-position: -133px -2px;
 }
 
 .leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-marker {
-	background-position: -120px -1px;
-}
-
-.leaflet-draw-toolbar .leaflet-draw-draw-streetview {
-	background-position: -250px -2px;
-}
-
-.leaflet-touch .leaflet-draw-toolbar .leaflet-draw-draw-streetview {
-	background-position: -248px -1px;
+	background-position: -131px -1px;
 }
 
 /* ================================================================== */

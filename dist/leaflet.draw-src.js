@@ -28,8 +28,8 @@ L.drawLocal = {
 				polygon: 'Draw a polygon',
 				rectangle: 'Draw a rectangle',
 				circle: 'Draw a circle',
-				marker: 'Draw a Marker',
-                streetview:'View Street Photography'
+				marker: 'Draw a marker',
+                streetview:'View street photography'
 			}
 		},
 		handlers: {
